@@ -5,6 +5,6 @@ I will summarize all the things I learnt during the process.
 
 ### Tags and their use
 
-1. <!DOCTYPE html> : Tells the browser that the document is of HTML type.
-2. <html>..</html> : parent of every tag we use in an HTML document; without it, everything might just not be rendered properly.
+1. `<!DOCTYPE html>` : Tells the browser that the document is of HTML type.
+2. `<html>..</html>` : parent of every tag we use in an HTML document; without it, everything might just not be rendered properly.
 
