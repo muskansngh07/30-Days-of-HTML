@@ -18,9 +18,9 @@
         <table width="90%" align="center" border="0" margin="50" height="100%">
             <tr>
                 <td>
-                    <h1 align="center">ML Verse</h1>
+                    <h1 align="center"><u>ML Verse</u></h1>
                     <div align="center">
-                    <img id="computer" src="images/ml.jpg" alt="A Computer" width="300px">
+                    <img id="computer" src="images/ml.jpg" alt="A Computer" width="300px" border="0" style="border-radius:50%;">
                     </div>
                     <h2>What is Machine Learning?</h2>
                     <p>It is a branch of Artificial Intelligence (AI) that is used to build systems that rely on data provided to them.
@@ -31,7 +31,7 @@
                     <h2>Traditional Programming vs. Machine Learning</h2>
                     <p>Machine Learning is such a paradigm shift in the world of technology. 
                         Following provides a comprehensive comparison of traditional programming and machine learning: </p>
-                    <h3>Traditional Programming: Logic first</h3>
+                    <div align="center"><h3 style="font-size:40px;">❀ Traditional Programming: Logic first</h3></div>
                         <blockquote>
                             <p>In this approach, a programmer writes a manual script (rules) to process data.</p>
                             <ul>
@@ -42,16 +42,39 @@
                             </li>
                             </ul>
                         </blockquote>
-                    <h3>Machine Learning: Data first</h3>
+                    <div align="center"><h3 style="font-size:40px;">❀ Machine Learning: Data first</h3></div>
                         <blockquote>
                             <p>We give the computer the data and the desired answers, and it figures out the patterns itself.</p>
                             <ul>
                                 <li><strong>Example: </strong> A spam filter. <br>
-                                Instead of writing a rule for every possible spam word, you show the computer 10,000 "Spam" emails and 10,000 "Not Spam" emails. 
+                                Instead of writing a rule for every possible spam word, you show the computer 10, 000 "Spam" emails and 10,000 "Not Spam" emails. 
                                 The computer identifies the subtle patterns that make an email spam
                                 </li>
                             </ul>
                         </blockquote>
+                    <hr>
+                    <h2>Basic Terminology</h2>
+                    <h3 style="font-size:40px;">1. The Data Building Blocks</h3>
+                    <ul>
+                        <li><strong>Feature: </strong> An individual measurable property or "variable" of the data you are analyzing.</li>
+                        <li><strong>Label: </strong> The "answer" or the target you are trying to predict (e.g., the actual "price" of the house).</li>
+                        <li><strong>Dataset: </strong> The collection of examples used for learning. It is usually split into: 
+                            <ul>
+                                <li>Training Set: Data used to teach the model.</li>
+                                <li>Test Set: Data used to see how well the model performs.</li>
+                            </ul>
+                        </li>
+                       </ul>
+                    <h3 style="font-size:40px;">2. Training Terms</h3>
+                    <ul>
+                        <li><strong>Algorithm: </strong>The specific mathematical procedure used to find patterns in data (e.g., Linear Regression, Decision Trees).</li>
+                        <li><strong>Model: </strong> The "finished product." It is what you get after you run an algorithm on your training data.</li>
+                        <li><strong>Epoch: </strong>One full pass of the entire training dataset through the model. If you train for 10 epochs, the model has "seen" the data 10 times.</li>
+                        <li><strong>Loss Function: </strong> A mathematical formula that calculates how "wrong" the model's prediction was. The goal of training is to make this number as small as possible.</li>
+                    </ul>
+                    <hr>
+                    <h2>The ML Workflow</h2>
+                    <div align="center"><img src="flowchart.png" alt="ML Workflow" border="1"></div>
                     <hr>
                     <h2>Types of Machine Learning Systems</h2>
                     <ul>
@@ -61,6 +84,39 @@
                         <li><a href="semi-supervised.html" target="_blank">Semi-Supervised Learning</a></li>
                     </ul>
                     <hr>
+                    <h2>Watch this YT Video!</h2>
+                    <section id="youtube-video">
+                        <div align="center"><iframe width="560" height="315"
+                            src="https://youtube.com/embed/ukzFI9rgwfU"
+                            title="youtube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe></div>
+                    </section>
+                    <hr>
+                    <section>
+                        <h3>Reach Out</h3>
+                        <div align="center">
+                            <form style="max-width: 500px;">
+                                
+                                <label for="fname">First Name:</label><br>
+                                <input type="text" id="fname" name="firstname" placeholder="Your name" 
+                                       style="width: 100%; padding: 12px; margin: 8px 0; font-size: 16px; border: 1px solid #ccc; border-radius: 4px;"><br>
+                        
+                                <label for="email">Your email address:</label><br>
+                                <input type="email" id="email" name="email" placeholder="example@gmail.com" required 
+                                       style="width: 100%; padding: 12px; margin: 8px 0; font-size: 16px; border: 1px solid #ccc; border-radius: 4px;"><br>
+                        
+                                <label for="subject">Reason for contact:</label><br>
+                                <textarea id="message" name="subject" rows="8" placeholder="Your reason" required 
+                                          style="width: 100%; padding: 12px; margin: 8px 0; font-size: 16px; border: 1px solid #ccc; border-radius: 4px;"></textarea><br>
+                        
+                                <input type="submit" value="Submit Message" 
+                                       style="width: 100%; background-color: #bbb; color: white; padding: 14px; border: none; border-radius: 4px; cursor: pointer; font-size: 18px; font-weight: bold;">
+                            </form>
+                        </div>
+                    </section>
                 </td>
             </tr>
         </table>
