@@ -5,11 +5,11 @@ I will summarize all the things I learnt during the process.
 
 <h3 align="center">Tags and their Use</h3>
 
-<table>
+<table align="center">
   <tr>
     <th>Tags</th>
-    <td>Name</td>
-    <td>Use</td>
+    <th>Name</th>
+    <th>Use</th>
   </tr>
   <tr>
     <td> &lt;!DOCTYPE html&gt; </td>
