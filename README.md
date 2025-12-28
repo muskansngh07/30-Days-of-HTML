@@ -126,4 +126,10 @@
     <td>Table Data</td>
     <td>The standard cell that holds the actual content (text, images, or links).</td>
   </tr>
+  <tr>
+    <th>20. </th>
+    <td>&lt;blockquote&gt;</td>
+    <td>The Block Quotation</td>
+    <td>Used for long, multi-line quotes. It is a "block-level" element, meaning it starts on a new line and takes up the full width available.</td>
+  </tr>
   </table>
