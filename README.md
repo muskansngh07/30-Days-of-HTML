@@ -22,7 +22,7 @@
     <th>2. </th>
     <td>&lt;html&gt;</td>
     <td>The Root element</td>
-    <td>The ultimate parent that wraps all other content. It defines the boundaries of the HTML document and often includes the language attribute (e.g., `<html lang="en">`).</td>
+    <td>The ultimate parent that wraps all other content. It defines the boundaries of the HTML document and often includes the language attribute (e.g., &lt;html lang="en"&gt;).</td>
   </tr>
   <tr>
     <th>3. </th>
