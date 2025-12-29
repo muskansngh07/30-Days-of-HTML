@@ -150,6 +150,9 @@
 
 ## All the things I learnt in CSS
 
+<div align="center"><h3>The 2 Main Steps</h3></div>
+
+
 ### 1️⃣ Step 1
 
 Link the `.html` file with `.css` file using the `link` tag as follows:
@@ -171,3 +174,47 @@ The `rel` tells the browser what relationship the HTML file with the CSS file.
 ```
 
 Every browser (Safari, Chrome, Firefox) adds its own tiny bits of default space (margins and padding) to elements. This makes our layout look different on every computer. We use the `*` selector (the "Universal" selector) to tell every element to start from zero and behave predictably.
+<hr>
+<div align="center"><h3>Properties and their Use</h3></div>
+
+In CSS, we categorize properties into two groups: Specific (only for text or images) and Universal (can be applied to any box).
+
+### ⭐️ Text Properties
+
+<table>
+  <tr>
+    <th>Properties</th>
+    <th>Use</th>
+    <th>Example</th>
+  </tr>
+  <tr>
+    <td>font-size</td>
+    <td>Controls how big the text is</td>
+    <td>16px, 2rem, etc. </td>
+  </tr>
+  <tr>
+    <td>font-weight</td>
+    <td>Controls thicknss</td>
+    <td>bold, 200, 300, etc. </td>
+  </tr>
+  <tr>
+    <td>line-height</td>
+    <td>The space between lines of text (crucial for readability).</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>letter-spacing</td>
+    <td>The space between individual characters.</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>text-align</td>
+    <td>Moves text to the left, right, center, or justify.</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>color</td>
+    <td>Changes the text color.</td>
+    <td></td>
+  </tr>
+</table>
