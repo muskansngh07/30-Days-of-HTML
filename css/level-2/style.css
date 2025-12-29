@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background-color:white;
+    margin:0px;
+    padding:20px;
+    height:100%;
+}
+.main-wrapper{
+    width:90%;
+    max-width:900px;
+    background:white;
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.05);
+}
+.flex-header{
+    display:flex;
+    align-items:center;
+    gap:40px;
+    text-align:left;
+}
+@media (max-width:600px){
+    .flex-header{
+        flex-direction:column;
+        text-align:center;
+    }
+}
+#profile-pic{
+    border-radius:50%;
+    width:250px;
+}
+
+/*How the headers will look */
+h1{
+    color:brown;
+    text-align:center;
+}
+
+h2{
+    color:brown;
+    text-align:center;
+}
+
+p{
+    margin-top:25px;
+    margin-bottom:25px;
+}
+form{
+    max-width:500px;
+    padding:20px;
+    margin: auto; /*auto centers whole block*/
+    text-align:center;
+    border:1px solid black;
+    border-radius:1px;
+    height:auto;
+}
+
+#education-det {
+    margin: 0 auto; /* This is how you center a table in CSS */
+    border: 2px solid black; /* Width, Style, Color */
+    border-collapse: collapse; /* This removes the gaps between cells */
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+
+#education-det td, #education-det th {
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+#about-me p{
+    text-align:center;
+    margin:25px auto;
+    line-height:1.6;
+}
+
+#youtube-video{
+    text-align: center;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* This keeps the padding inside the width */
+}
