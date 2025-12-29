@@ -146,6 +146,8 @@
   </tr>
 </table>
 
+📌 Project made at the end : [ML Verse](https://ml-html-project1.vercel.app)
+
 ## All the things I learnt in CSS
 
 ### *⭐️ The Rule Set*
