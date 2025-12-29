@@ -1,10 +1,45 @@
+html {
+    scroll-behavior: smooth;
+}
 * {
     box-sizing: border-box;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Pushes logo to left, links to right */
+    align-items: center;
+    padding: 15px 50px;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    
+    /* This makes the Nav stay at the top when you scroll */
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Keeps nav above all other content */
+}
+
+.nav-links {
+    display: flex;
+    list-style: none; /* Removes the bullet points */
+    gap: 20px;        /* Space between each link */
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a {
+    text-decoration: none; /* Removes the underline */
+    color: #333;
+    font-weight: bold;
+    transition: 0.3s;      /* Makes the hover effect smooth */
+}
+
+.nav-links a:hover {
+    color: brown;          /* Changes color when mouse is over it */
 }
 body {
     display:flex;
     flex-direction:column;
-    justify-content:center;
+    justify-content:flex-start;
     align-items:center;
     min-height:100vh;
     background-color:white;
@@ -94,4 +129,13 @@ input[type="text"], input[type="email"], textarea {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box; /* This keeps the padding inside the width */
+}
+section {
+    padding: 60px 0; /* 60px space on top and bottom */
+    border-bottom: 1px solid #eee; /* A very subtle line instead of a heavy <hr> */
+}
+
+/* Remove the border from the very last section */
+section:last-child {
+    border-bottom: none;
 }
